@@ -1,16 +1,50 @@
-# React + Vite
+# Cricket Website — Client
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is the frontend for the Cricket Website project. It is a single-page application built with React and Vite that provides the user interface for viewing match information, player profiles, and live updates.
 
-Currently, two official plugins are available:
+**Features:**
+- Modern React (JSX) + Vite for fast development and HMR
+- Simple responsive UI for match and player views
+- ESLint configuration for consistent code style
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+**Tech stack:**
+- React
+- Vite
+- JavaScript (ES2020+)
+- CSS
 
-## React Compiler
+**Quick start**
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+1. Install dependencies:
 
-## Expanding the ESLint configuration
+	- `cd client`
+	- `npm install`
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+2. Run the development server:
+
+	- `npm run dev`
+
+3. Build for production:
+
+	- `npm run build`
+
+4. Preview the production build locally:
+
+	- `npm run preview`
+
+**Project structure (client/)**
+- `index.html` — entry HTML
+- `src/` — React source files
+- `src/main.jsx` — app bootstrap
+- `src/App.jsx` — main app component
+- `assets/` — static assets
+- `package.json` — frontend scripts & dependencies
+
+**Contributing**
+- Run the dev server and open a pull request with changes.
+- Follow existing code style and lint rules; run `npm run lint` if configured.
+
+**License**
+- Add or update a license at the repository root as needed.
+
+If you want, I can also add usage examples, screenshots, or update the root README. 
